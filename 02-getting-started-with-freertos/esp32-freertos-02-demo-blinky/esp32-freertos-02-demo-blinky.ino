@@ -29,7 +29,7 @@ void toggleLED(void *parameter) {
 }
 
 void setup() {
-
+  
   // Configure pin
   pinMode(led_pin, OUTPUT);
 
@@ -51,5 +51,5 @@ void loop() {
   // Do nothing
   
   // setup() and loop() run in their own task with priority 1 in core 1
-  // on ESP32
+  // on ESP32 module
 }
